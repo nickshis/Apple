@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transition: 0.5s ease;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 1000px;
+}
+
+.imaage{
+    width: 30px;
+    height: 30px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(./img/no-translate-detected_318-33267.jpg);
+}
+
+.mainer {
+    display: flex;
+    justify-content: center;
+    padding: 30px 0px;
+    width: 100%;
+    height: 200px;
+    background-color: #F5F5F7;
+}
+
+.image{
+    width: 30px;
+    height: 30px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(./img/search.svg);
+}
+
+.box{
+    margin-top: 7px;
+}
+
+.imagesss{
+    width: 30px;
+    height: 30px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(./img/sss.svg);
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 280px;
+    width: 100%;
+    height: 60px;
+    background-color: white;
+}
+
+.pop{
+    margin-top: 100px;
+    margin-left: 30px;
+}
+
+.sss{
+    color: #BF4800;
+}
+
+.sos{
+    font-size: 50px;
+}
+
+main{
+    display: flex;
+    gap: 20px;
+    padding: 30px;
+}
+
+.divMain{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1950px;
+    height: 700px;
+    border-radius: 10px;
+    background-color: #F4F6F7;
+}
+.img{
+    width: fit-content;
+    height: 700px;
+    background-position: center;
+    background-size: 1400px;
+    background-repeat: no-repeat;
+}
+
+.scrollBar{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 500px;
+    height: 700px;
+}
+.iphone14{
+    display: flex;
+    justify-content: space-between;
+    padding: 37px 20px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    width: 100%;
+    height: 150px;
+}
+
+.active{
+    display: flex;
+    justify-content: space-between;
+    padding: 37px 20px;
+    border: 2px solid rgb(34, 0, 255);
+    border-radius: 10px;
+    width: 100%;
+    height: 150px;
+}
+
+.colours{
+    display: flex;
+    gap: 10px;
+}
+
+.colour{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #ADBECE;
+}
+
+.colour2{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #E4DEE9;
+}
+
+
+.colour3{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #FFF49A;
+}
+
+.colour4{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #343942;
+}
+
+
+.colour5{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #FC213F;
+}
